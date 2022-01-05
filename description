@@ -1,5 +1,8 @@
 this is a short description of how to project works
 
+!!! due to github revoking the github personal access token being used it means that i have preloaded the data being used by index.js and index.html into data2.csv so that 
+there is no need to run any of the python scripts. the demo video provides a demonstration of them working to show what their purpose is.
+
 1.
 the vis.py script will extract data from my github account using the github api and uploads it to a mongodb database that is ran on a docker container started with a compose
 
