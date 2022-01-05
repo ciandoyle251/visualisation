@@ -1,0 +1,15 @@
+this is a short description of how to project works
+
+1.
+the vis.py script will extract data from my github account using the github api and uploads it to a mongodb database that is ran on a docker container started with a compose
+
+2.
+the vis2.py script then take the data from the mongodb database and parse the relevent data into a csv file for use in the java script file.
+
+3.
+the index.html file calls the index.js file which takes the csv data and presents it in the webpage using d3.
+
+4.
+the d3 software is used to present a bar chart of the number of repos of github accounts that i follow. this gives a general visualisation of software engineering skill compared
+to each other where the users with a higher github repo count will have a larger bar than others that have a lower count. this visualises a rough description of skill of 
+different github accounts
